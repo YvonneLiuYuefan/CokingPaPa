@@ -42,9 +42,18 @@ class Router {
         /* GET menu page. */
         /* GET DIY spet1 page. */
         router.get('/DIYs1', function (req, res, next) {
-            res.render('DIYs1', {title: 'DIY step1 set up taste preference'});
+            res.render('DIYs1', {title: 'DIY step 1 set up taste preference'});
         });
+
         /* GET DIYs2 page. */
+        router.get('/DIYs2', function (req, res, next) {
+            res.render('DIYs2', {title: 'DIY step 2 select everything you like'});
+        });
+
+        /* GET DIYs3 page. */
+        router.get('/DIYs3', function (req, res, next) {
+            res.render('DIYs3', {title: 'DIY step 3 Review and pay'});
+        });
 
         /* GET Hello World page. */
         router.get('/helloworld', function (req, res) {
