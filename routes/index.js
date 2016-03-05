@@ -26,6 +26,13 @@ var Router = (function () {
             res.render('index', { title: 'Home' });
         });
         /* GET menu page. */
+        router.get('/menu', function (req, res, next) {
+            res.render('menu', { title: 'Chef menu' });
+        });
+        /* GET popular page. */
+        router.get('/popular', function (req, res, next) {
+            res.render('popular', { title: 'Popular secrete recipes' });
+        });
         /* GET DIY spet1 page. */
         router.get('/DIYs1', function (req, res, next) {
             res.render('DIYs1', { title: 'DIY step 1 set up taste preference' });

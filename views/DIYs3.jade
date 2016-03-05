@@ -1,55 +1,9 @@
 extends layout
 
 block content
-    div(class="progress")
-        div(class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 20%")
-            span(class="sr-only") 25% Complete (success)
-    div(class="jumbotron container" style="background-image: url(https://d3ui957tjb5bqd.cloudfront.net/images/screenshots/products/10/106/106397/kbbn6c8xv6vshiuzkff7gz4t38b9lm42hbbbz66awuav5lonsvlciqfgixucmzbw-o.jpg?1399222055); background-size: cover;")
-        div(class="container" align="right")
-            h1 Taste Preference
-                p Choose your taste, and we will give you recommendation on your recipe
-                br
-                form(class="form-inlline" align="right")
-                    div(class="form-group" align="right")
-                        h3
-                            label(align="left" class="col-sm-2 col-md-offset-5 control-label") Salty
-                        h5
-                            input(align="right" type="radio" class="col-sm-1" name="salty" id="saltyy" value="yes")
-                            label(align="left" for="saltyy" class="col-sm-1 control-label") Yes
-                            input(align="right" type="radio" class="col-sm-1" name="salty" id="saltyn" value="no")
-                            label(align="left" for="saltyn" class="col-sm-1 control-label") No
-                p
-                form(class="form-inlline" align="right")
-                    div(class="form-group" align="right")
-                        h3
-                            label(align="left" class="col-sm-2 col-md-offset-5 control-label") Spicy
-                        h5
-                            input(align="right" type="radio" class="col-sm-1" name="spicy" id="spicyy" value="yes")
-                            label(align="left" for="spicyy" class="col-sm-1 control-label") Yes
-                            input(align="right" type="radio" class="col-sm-1" name="spicy" id="spicyn" value="no")
-                            label(align="left" for="spicyn" class="col-sm-1 control-label") No
-                p
-                form(class="form-inlline" align="right")
-                    div(class="form-group" align="right")
-                        h3
-                            label(align="left" class="col-sm-2 col-md-offset-5 control-label") Oilly
-                        h5
-                            input(align="right" type="radio" class="col-sm-1" name="oilly" id="oillyy" value="yes")
-                            label(align="left" for="oillyy" class="col-sm-1 control-label") Yes
-                            input(align="right" type="radio" class="col-sm-1" name="oilly" id="oillyn" value="no")
-                            label(align="left" for="oillyn" class="col-sm-1 control-label") No
-                p
-                form(class="form-inlline" align="right")
-                    div(class="form-group" align="right")
-                        h3
-                            label(align="left" class="col-sm-2 col-md-offset-5 control-label") Sour
-                        h5
-                            input(align="right" type="radio" class="col-sm-1" name="sour" id="soury" value="yes")
-                            label(align="left" for="soury" class="col-sm-1 control-label") Yes
-                            input(align="right" type="radio" class="col-sm-1" name="sour" id="sourn" value="no")
-                            label(align="left" for="sourn" class="col-sm-1 control-label") No
-                br
-                p
-                br
-                a(class="btn btn-success btn-lg" href="/DIYs2" role="button") Next
+    div
+        img(class="col-sm-12" src="/images/DIY3.jpg")
+    div(align='right' class="col-sm-12")
+        a(class="btn btn-success btn-lg" href="/payment" role="button") Confirm and Pay
+
 
