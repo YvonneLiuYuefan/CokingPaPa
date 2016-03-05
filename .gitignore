@@ -4,6 +4,5 @@ types
 *.log
 *.swp
 *.swo
-/.idea
 *.map
 *.iml
