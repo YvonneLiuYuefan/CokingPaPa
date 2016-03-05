@@ -1,6 +1,7 @@
 data
 node_modules
 types
+/.idea
 *.log
 *.swp
 *.swo
