@@ -1,7 +1,9 @@
 data
 node_modules
 types
-types/DefinitelyTyped
 *.log
 *.swp
 *.swo
+/.idea
+*.map
+*.iml
